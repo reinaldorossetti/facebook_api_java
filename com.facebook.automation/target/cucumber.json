@@ -1,0 +1,1104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Write post on Facebook",
+        "description": "",
+        "id": "all;write-post-on-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 184600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46349254500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the \"Firefox\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firefox",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4678237400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 633965800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7698719800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Write a new POST with content \"Bom Dia meus Amigos!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bom Dia meus Amigos!",
+                  "offset": 31
+                }
+              ],
+              "location": "StepsDefinitionNew.addNewPosting(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3873733700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Make the logout on facebook and validate the text \"entre ou cadastre-se\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entre ou cadastre-se",
+                  "offset": 51
+                }
+              ],
+              "location": "StepsDefinitionNew.logoutAndValidate(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Write post on Facebook",
+        "description": "",
+        "id": "all;write-post-on-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 114300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8700431900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the \"Chrome\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4002065100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304156600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8155032000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Write a new POST with content \"Boa Tarde meus Amigos!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boa Tarde meus Amigos!",
+                  "offset": 31
+                }
+              ],
+              "location": "StepsDefinitionNew.addNewPosting(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4963009100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Make the logout on facebook and validate the text \"entre ou cadastre-se\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entre ou cadastre-se",
+                  "offset": 51
+                }
+              ],
+              "location": "StepsDefinitionNew.logoutAndValidate(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Validated post created on Facebook",
+        "description": "",
+        "id": "all;validated-post-created-on-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 26300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43231040600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the \"Firefox\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firefox",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5610327200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 931828300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3536799700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "navigate to the web site \"https://developers.facebook.com/tools/explorer/?method\u003dGET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://developers.facebook.com/tools/explorer/?method\u003dGET",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_to_web_site(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2549753200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get new token",
+            "match": {
+              "location": "StepsDefinitionNew.get_new_token()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2321656100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Validar se o post foi realizado \"Bom Dia meus Amigos!\" no facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bom Dia meus Amigos!",
+                  "offset": 33
+                }
+              ],
+              "location": "StepsDefinitionApi.validar_existencia_do_post(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1561862400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close browser",
+            "match": {
+              "location": "StepsDefinitionNew.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validated post created on Facebook",
+        "description": "",
+        "id": "all;validated-post-created-on-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 89300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7912817100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the \"Chrome\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3687302700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305235800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2640104800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "navigate to the web site \"https://developers.facebook.com/tools/explorer/?method\u003dGET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://developers.facebook.com/tools/explorer/?method\u003dGET",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_to_web_site(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1980076200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Get new token",
+            "match": {
+              "location": "StepsDefinitionNew.get_new_token()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461723900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Validar se o post foi realizado \"Boa Tarde meus Amigos!\" no facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boa Tarde meus Amigos!",
+                  "offset": 33
+                }
+              ],
+              "location": "StepsDefinitionApi.validar_existencia_do_post(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1082664300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Close browser",
+            "match": {
+              "location": "StepsDefinitionNew.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Delete post on Facebook",
+        "description": "",
+        "id": "all;delete-post-on-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 43500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53532260000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the \"Firefox\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firefox",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6217323000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 458176800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9651980200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Deletar a nova postagem no facebook e validar a exclusao \"Bom Dia meus Amigos!\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bom Dia meus Amigos!",
+                  "offset": 58
+                }
+              ],
+              "location": "StepsDefinitionNew.deletePost(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3776707400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Make the logout on facebook and validate the text \"entre ou cadastre-se\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entre ou cadastre-se",
+                  "offset": 51
+                }
+              ],
+              "location": "StepsDefinitionNew.logoutAndValidate(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Delete post on Facebook",
+        "description": "",
+        "id": "all;delete-post-on-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 36500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14092001300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the \"Chrome\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4118228600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553624800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7299307300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Deletar a nova postagem no facebook e validar a exclusao \"Boa Tarde meus Amigos!\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boa Tarde meus Amigos!",
+                  "offset": 58
+                }
+              ],
+              "location": "StepsDefinitionNew.deletePost(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5971224100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Make the logout on facebook and validate the text \"entre ou cadastre-se\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "entre ou cadastre-se",
+                  "offset": 51
+                }
+              ],
+              "location": "StepsDefinitionNew.logoutAndValidate(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Validated post deleted on Facebook",
+        "description": "",
+        "id": "all;validated-post-deleted-on-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 43500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40477011100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the \"Firefox\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firefox",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4600745900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426006400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3290700200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "navigate to the web site \"https://developers.facebook.com/tools/explorer/?method\u003dGET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://developers.facebook.com/tools/explorer/?method\u003dGET",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_to_web_site(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2846586500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Get new token",
+            "match": {
+              "location": "StepsDefinitionNew.get_new_token()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354881000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Validar se o post foi deletado \"Bom Dia meus Amigos!\" no facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bom Dia meus Amigos!",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinitionApi.validar_se_o_post_foi_deletado(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985998500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Close browser",
+            "match": {
+              "location": "StepsDefinitionNew.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 55,
+        "name": "Validated post deleted on Facebook",
+        "description": "",
+        "id": "all;validated-post-deleted-on-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 22000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitionNew.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13001396900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the \"Chrome\" and navigate to the web site facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 5
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_web_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3921778300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Make the \"11972418260\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11972418260",
+                  "offset": 10
+                }
+              ],
+              "location": "StepsDefinitionNew.Login(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327753600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Validate the \"Mateus Rossetti\" in Main menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mateus Rossetti",
+                  "offset": 14
+                }
+              ],
+              "location": "StepsDefinitionNew.validate_Main_menu(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2487949000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "navigate to the web site \"https://developers.facebook.com/tools/explorer/?method\u003dGET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://developers.facebook.com/tools/explorer/?method\u003dGET",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDefinitionNew.navigate_to_web_site(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1921139500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Get new token",
+            "match": {
+              "location": "StepsDefinitionNew.get_new_token()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491852900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Validar se o post foi deletado \"Boa Tarde meus Amigos!\" no facebook",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boa Tarde meus Amigos!",
+                  "offset": 32
+                }
+              ],
+              "location": "StepsDefinitionApi.validar_se_o_post_foi_deletado(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1186730900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Close browser",
+            "match": {
+              "location": "StepsDefinitionNew.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "All",
+    "description": "",
+    "id": "all",
+    "keyword": "Feature",
+    "uri": "features/WritePost.feature"
+  }
+]
