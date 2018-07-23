@@ -17,7 +17,7 @@ public class StepsDefinitionApi {
     String token = conf.getConfig("token");
 
 
-    @Then("^Validar se o post foi realizado \"([^\"]*)\" no facebook$")
+    @Then("^Validate if the post was created \"([^\"]*)\" on facebook$")
     public void validar_existencia_do_post(String msn_post) throws Throwable {
 
         String postMSN = site+ "/" + user+ "/posts" + "?access_token="+ token;
@@ -32,7 +32,7 @@ public class StepsDefinitionApi {
         assertThat(res.asString(), containsString(msn_post));
     }
 
-    @Then("^Validar se o post foi deletado \"([^\"]*)\" no facebook$")
+    @Then("^Validate if the post has been deleted \"([^\"]*)\" on facebook$")
     public void validar_se_o_post_foi_deletado(String msn_post) throws Throwable {
 
         String postMSN = site+ "/" + user+ "/posts" + "?access_token="+ token;
