@@ -1,16 +1,18 @@
 
-# Features
+# O que o projeto faz:
 - Cria um post no facebook usando o Selenium WebDriver;
 - Pega um novo token no site e Valida a criação do Post via API usando o rest-assured;
 - Deleta o post criado no facebook usando o Selenium WebDriver;
 - Pega um novo token no site e Valida se Deletou os Posts via API usando o rest-assured;
 - Gera o report global do testes usando o frameword cucumber-extentsreport ("target\cucumber-reports\report.html").
 
-**Features Names:**
+**Scenarios:**
 - Write post on Facebook.
 - Validated post created on Facebook by API.
 - Delete the post on Facebook.
 - Validated post deleted on Facebook by API.
+
+** Feature fica no caminho "resource/features/WritePost.feature".
 
 # Step Definition
 - Existe dois um para os testes via Selenium e Outro via API;
