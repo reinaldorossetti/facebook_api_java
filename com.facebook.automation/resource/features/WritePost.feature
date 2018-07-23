@@ -19,7 +19,7 @@ Feature: All
     When Validate the "<Name>" in Main menu
     When navigate to the web site "https://developers.facebook.com/tools/explorer/?method=GET"
     And Get new token
-    Then Validar se o post foi realizado "<Input>" no facebook
+    Then Validate if the post was created "<Input>" on facebook
     And Close browser
 
     Examples:
@@ -46,7 +46,7 @@ Feature: All
     When Validate the "<Name>" in Main menu
     When navigate to the web site "https://developers.facebook.com/tools/explorer/?method=GET"
     And Get new token
-    Then Validar se o post foi deletado "<Input>" no facebook
+    Then Validate if the post has been deleted "<Input>" on facebook
     And Close browser
 
     Examples:
