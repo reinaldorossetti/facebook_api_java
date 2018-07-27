@@ -35,7 +35,7 @@ password = xxxx
 
 - Realizar as configuraçãoes acima e abrir o arquivo RunnerTest.java e executar o mesmo.
 
-## Utilizados:
+## Ferramentas/Frameworks Utilizados:
 - intellij
 - maven
 - selenium webdriver
