@@ -1,6 +1,6 @@
 Feature: All
 
-  Scenario Outline: Write post on Facebook.
+  Scenario Outline: Write a Post on Facebook.
     Given the "<Browser>" and navigate to the web site facebook
     And Make the "<Login>"
     When Validate the "<Name>" in Main menu
@@ -13,7 +13,7 @@ Feature: All
       | Chrome  | 11972418260          |   Mateus Rossetti   | Boa Tarde meus Amigos!     | entre ou cadastre-se    |
 
 
-  Scenario Outline: Validated post created on Facebook by API.
+  Scenario Outline: Validate the post created on Facebook by API.
     Given the "<Browser>" and navigate to the web site facebook
     And Make the "<Login>"
     When Validate the "<Name>" in Main menu
@@ -40,7 +40,7 @@ Feature: All
       | Firefox | 11972418260          |  Mateus Rossetti   | Bom Dia meus Amigos!       | entre ou cadastre-se    |
       | Chrome  | 11972418260          |  Mateus Rossetti   | Boa Tarde meus Amigos!     | entre ou cadastre-se    |
 
-  Scenario Outline: Validated post deleted on Facebook by API.
+  Scenario Outline: Validate the post deleted on Facebook by API.
     Given the "<Browser>" and navigate to the web site facebook
     And Make the "<Login>"
     When Validate the "<Name>" in Main menu
