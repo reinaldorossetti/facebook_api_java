@@ -23,7 +23,7 @@
    O chrome pelo maven não está funcionando com a ultima versão do browser.
 3. Precisa criar um arquivo "conf.properties" dentro do resource, com as configurações de usuário do facebook.
 
-website = xxx  
+website = https://www.facebook.com  
 delay_wait = 50  
 sleep =  3000  
 host = https://graph.facebook.com  
