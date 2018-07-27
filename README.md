@@ -1,5 +1,5 @@
 
-# O que o projeto faz:
+# O que faz o nosso projeto de Automação:
 - Cria um post no facebook usando o Selenium WebDriver;
 - Pega um novo token no site e Valida a criação do Post via API, usando o rest-assured;
 - Deleta o post criado no facebook usando o Selenium WebDriver;
