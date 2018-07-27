@@ -1,27 +1,27 @@
 
 # O que o projeto faz:
 - Cria um post no facebook usando o Selenium WebDriver;
-- Pega um novo token no site e Valida a criação do Post via API usando o rest-assured;
+- Pega um novo token no site e Valida a criação do Post via API, usando o rest-assured;
 - Deleta o post criado no facebook usando o Selenium WebDriver;
-- Pega um novo token no site e Valida se Deletou os Posts via API usando o rest-assured;
+- Pega um novo token no site e Validar se Deletou os Posts via API usando o rest-assured;
 - Gera o report global do testes usando o frameword cucumber-extentsreport ("target\cucumber-reports\report.html").
 
 **Scenarios:**
 - Write post on Facebook.
-- Validated post created on Facebook by API.
+- Validate the created post on Facebook by API.
 - Delete the post on Facebook.
-- Validated post deleted on Facebook by API.
+- Validate post deleted on Facebook by API.
 
 ** Feature fica no caminho "resource/features/WritePost.feature".
 
-# Step Definition
-- Existe dois um para os testes via Selenium e Outro via API;
+# Step Definition:
+- Existe dois, um para os testes via Selenium e Outro via API;
 
-## Passo  a Passo
-1. Precisa criar um profile chamado "reiload", foi criado o profile pra remover as notificações(popups);
+## Passo  a Passo:
+1. Precisa criar um profile chamado "reiload", foi criado o profile para remover as notificações(popups);
 2. Criar uma pasta driver na raiz e colocar os drivers e setar o mesmo no sistema operacional ("/drivers/chromedriver.exe");
    O chrome pelo maven não está funcionando com a ultima versão do browser.
-3. Precisa criar um arquivo "conf.properties" dentro do resource, com as configurações de usuario do facebook.
+3. Precisa criar um arquivo "conf.properties" dentro do resource, com as configurações de usuário do facebook.
 
 website = xxx  
 delay_wait = 50  
@@ -33,7 +33,7 @@ password = xxxx
 
 ## Como Rodar:
 
-- Realizar as configuraçãoes acima e abrir o arquivo RunnerTest.java e executar.
+- Realizar as configuraçãoes acima e abrir o arquivo RunnerTest.java e executar o mesmo.
 
 ## Utilizados:
 - intellij
